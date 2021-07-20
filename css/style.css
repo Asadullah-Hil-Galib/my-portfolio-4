@@ -291,8 +291,8 @@ footer span:hover
 .home-intro .dynamic-texts
 {
     margin-left: 15px;
-    line-height: 45px;
-    height: 45px;
+    line-height: 60px;
+    height: 60px;
     overflow: hidden;
 }
 .home-intro .dynamic-texts li
@@ -308,7 +308,7 @@ footer span:hover
 @keyframes slide {
      100%
      {
-         top: -180px;
+         top: -240px;
      }
 }
 .dynamic-texts li span
