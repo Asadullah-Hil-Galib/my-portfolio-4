@@ -285,13 +285,13 @@ footer span:hover
 .home-intro .static-text
 {
   color: var(--color-b);
-  font-size: 30px;
+  font-size: 37px;
   font-weight: 400;
 }
 .home-intro .dynamic-texts
 {
     margin-left: 15px;
-    line-height: 60px;
+    line-height: 55px;
     height: 60px;
     overflow: hidden;
 }
