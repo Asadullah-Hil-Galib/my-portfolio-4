@@ -285,24 +285,23 @@ footer span:hover
 .home-intro .static-text
 {
   color: var(--color-b);
-  font-size: 37px;
+  font-size: 55px;
   font-weight: 400;
 }
 .home-intro .dynamic-texts
 {
     margin-left: 15px;
-    line-height: 55px;
-    height: 60px;
+    line-height: 35px;
+    height: 35px;
     overflow: hidden;
 }
-.home-intro .dynamic-texts li
-{
+.home-intro .dynamic-texts li {
     color: #e83a3b;
-    font-size: 30px;
+    font-size: 35px;
     list-style: none;
     font-weight: 500;
-     position: relative;
-     top: 0;
+    position: relative;
+    top: 7px;
     animation: slide 6s steps(4) infinite;
 }
 @keyframes slide {
