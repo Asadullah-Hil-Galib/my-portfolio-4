@@ -1,0 +1,149 @@
+@media only screen and (max-width: 1250px){
+    :root{
+        --lead-size: 1rem;
+    }
+    .manu-open {
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        font-size: 28px;
+        color: #e83a3b;
+        text-align: right;
+        padding-right: 5%;
+        z-index: 3000;
+        cursor: pointer;
+    }
+    #left-side {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 1000;
+        background: var(--color-b);
+        transition: .4s;
+    }
+    #main-content {
+        width: 100%;
+        margin-left: 0;
+        transition: .4s;
+    }
+    #toggle-close-btn {
+        display: block;
+    }
+    .planing-item {
+        min-width: 300px;
+    }
+    .blog-item {
+        min-width: 335px;
+        margin-top: 2rem !important;
+    }
+    .skills-name, .skills-details {
+        min-width: 360px;
+    }
+    secetion#skills {
+        background: var(--color-a);
+    }
+    #skills .container {
+        background: var(--color-a);
+        padding: 3rem 4%;
+    }
+    section#planing {
+        background: var(--color-b);
+    }
+}
+@media only screen and (max-width:790px){
+    :root{
+        --background-gradient: linear-gradient(90deg, deeppink, purple);
+        --color-b: #291f29;
+        --color-a: #FFFFFF;
+        --lead-size: .8rem;
+        --lead-weight: 400;
+        --heading-size: 1.4rem;
+        --heading-weight: 600;
+        --text-italic: italic;
+        --padding-sm: 2rem;
+        --background: #20202a;
+    }
+    .about-me-img {
+        width: 225px;
+        height: 225px;
+    }
+    #home-page {
+        min-height: 650px;
+        padding-top: 114px;
+    }
+    #home-page .d-flex {
+        flex-wrap: wrap;
+    }
+    #skills .d-flex{
+        flex-wrap: wrap;
+    }
+    .skills-name, .skills-details {
+        width: 100%;
+    }
+    .skills-name .skill-item h2 {
+        font-size: 17px;
+    }
+    .home-info, .home-img {
+        width: 100%;
+    }
+    .portfolio-item {
+        min-width: 344px;
+    }
+    #contact .d-flex{
+        flex-wrap: wrap;
+    }
+    .contact-map, .contact-form {
+        width: 100%;
+        min-width: 349px;
+    }
+    .contact-map iframe{
+        width: 100%;
+    }
+    #planing .container {
+        padding: 3rem 0;
+    }
+    .portfolio-button {
+        text-align: center;
+    }
+    .blog-item {
+        min-width: 335px;
+        margin: 0 5px;
+    }
+    .section-heading {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:650px) {
+    #home-page {
+        padding-top: 170px;
+    }
+}
+@media only screen  and (max-width: 400px){
+    .blog-item {
+        min-width: 97%;
+    }
+    .contact-map, .contact-form {
+        width: 100%;
+        min-width: 100%;
+    }
+    .portfolio-item {
+        min-width: 100%;
+    }
+    .skills-name, .skills-details {
+        min-width: 100%;
+    }
+    .portfolio-button button {
+        margin-top: 10px;
+    }
+}
+#toggle-close-btn{
+    cursor: pointer;
+}
+.show
+{
+    left: 0 !important;
+}
+.active{
+    background: #e83a3b !important;
+}
