@@ -1,3 +1,9 @@
+let preloader = document.querySelector('#loading');
+setTimeout(function onloadBody() {
+    preloader.style.display = 'none'
+},5000)
+
+
 let navToggleBtn = document.querySelector('#navbar-toggle-btn');
 let lefSidebar = document.querySelector('#left-side');
 let mainBodyBox = document.querySelector('#main-content');
